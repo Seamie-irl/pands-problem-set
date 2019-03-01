@@ -12,7 +12,7 @@ sResponse = input("Please enter a positive integer")
  #test that it's a positive integer
 if sResponse.isdigit():
     # OK, at least it's a number but is it positive?
-    lResponse=float(sResponse)
+    lResponse=float(sResponse) #used float in case the number isn't an integer
     if lResponse>0: # Right, well, it's a positive number but is it an integer
         if lResponse==float(int(lResponse)): #bingo, we have a positivie integer
             lResult=lResponse # introduce the pointer for the Result
