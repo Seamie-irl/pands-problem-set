@@ -1,0 +1,6 @@
+1. Complete Appendix in Readme
+2. Retest all solutions
+3. Examine comments and add where necessary
+4. email Ian about deleting old files - suggestion around conflict / misunderstanding
+5. Check presence of Qs 8 & 9
+6. Q 10 doesn't work. Fix it
