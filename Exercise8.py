@@ -25,7 +25,7 @@ ordinal = lambda n: "%d%s" % (n,"tsnrhtdd"[(m.floor(n/10)%10!=1)*(n%10<4)*n%10::
 # (the alternative would have been to have an array of ordinal numbers)
 # now put it all together and print
 sResult=dayName + ", " + monthName + " " + ordinal(rightNow.day) +" " + str(rightNow.year) + " at " + sTime
-print(sResult)
+print("Right now is: " + sResult)
 
 # note: it would be possible to put most of the calculations / conversions into the print statement
 #       but it would be difficult to read
