@@ -29,6 +29,51 @@ A set of ten problems were presented to the class during the winter semester of 
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise1.py>Exercise 1</a></td>
         <td></td>
     </tr>
+    <tr>
+        <td>Question 2</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise2.py>Exercise 2</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 3</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise3.py>Exercise 3</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 4</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise4.py>Exercise 4</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 5</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise5.py>Exercise 5</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 6</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise6.py>Exercise 6</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 7</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise7.py>Exercise 7</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 8</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise8.py>Exercise 8</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 9</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise9.py>Exercise 9</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Question 10</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise10.py>Exercise 10</a></td>
+        <td></td>
+    </tr>
 </table>
 
 ### My solutions - background
