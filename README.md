@@ -17,7 +17,20 @@ However, as you're reading this, you're in GitHub and by clicking on the solutio
 ### The problem set
 A set of ten problems were presented to the class during the winter semester of 2019 for the **Programming and Scripting** module of the Higher Diploma in Science in Data analytics. The list of questions can be viewed here. https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
-## My solutions - background
+### The Questions and their corresponding Answers
+<table>
+    <th>
+        <td>Question</td>
+        <td>Answer</td>
+        <td>pre-Answer files</td>
+    </th>
+    <tr>
+        <td>Question 1</td>
+        <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise1.py>Exercise 1</a>
+    </tr>
+</table>
+
+### My solutions - background
 I have been programming / scripting in one form or another for over 30 years, mostly for personal enjoyment. However, in the last two decades I've also used it for work. My experience is in Visual Basic and SQL though I've also dipped a toe into C++ and MS-DOS batch scripts. As a result of this, a lot of my solutions were trial-and-error. Perhaps not the most efficient method but certainly the most enjoyable and rewarding. I generally created my code and debugged it as I went along. The biggest issue were the minor syntax changes from language to language (for example, placing a colon at the end of loop statement lines). Only when I'd been unable to work out the syntax of code, or indeed the code itself did I search online. Depending on my need at the time I'd either use the Python or StackOverflow websites (see references)
 
 ### My solutions - hierarchy
