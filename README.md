@@ -10,7 +10,7 @@ In order to be able to view the solutions, you might like to have:
 + Visual Studio Code (or other software which will display the code in the file e.g. Anaconda)
 + Knowledge on how to access the Windows Command Prompt (Command Line Interface) and how to run commands
 
-An appendix at the end of this document provides an outline on how to achieve the above criteria
+An <a href="#App">appendix</a> at the end of this document provides an outline on how to achieve the above criteria
 
 However, as you're reading this, you're in GitHub and by clicking on the solutions as described below you can view the coding in this manner without having to install any software.
 
@@ -20,7 +20,7 @@ A set of ten problems were presented to the class during the winter semester of 
 ### The Questions and their corresponding Answers
 <table>
     <tr>
-        <th colspan=400px>Question</th>
+        <th>Question</th>
         <th>Answer</th>
         <th>pre-Answer files</th>
     </tr>
@@ -90,5 +90,5 @@ At the top of each file I have commented the question and a brief outline of my 
 ### My Solutions - References
 Where I've directly used code in my solutions, the link to the source of the code is commented.
 
-## Appendix 1
+<h2 id="App"> Appendix 1 </h2>
 
