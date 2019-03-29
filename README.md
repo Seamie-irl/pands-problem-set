@@ -21,8 +21,8 @@ A set of ten problems were presented to the class during the winter semester of 
 <table>
     <tr>
         <th>Question</th>
-        <th>Answer</th>
-        <th>pre-Answer files</th>
+        <th colspan=20%>Answer</th>
+        <th colspan=20%>pre-Answer files</th>
     </tr>
     <tr>
         <td>Question 1: Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.</td>
