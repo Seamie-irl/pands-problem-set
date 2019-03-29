@@ -30,47 +30,47 @@ A set of ten problems were presented to the class during the winter semester of 
         <td></td>
     </tr>
     <tr>
-        <td>Question 2</td>
+        <td>Question 2: Write a program that outputs whether or not today is a day that begins with the letter T.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise2.py>Exercise 2</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 3</td>
+        <td>Question 3: Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise3.py>Exercise 3</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 4</td>
+        <td>Question 4: [Collatz] Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise4.py>Exercise 4</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 5</td>
+        <td>Question 5: Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise5.py>Exercise 5</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 6</td>
+        <td>Question 6: Write a program that takes a user input string and outputs every second word.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise6.py>Exercise 6</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 7</td>
+        <td>Question 7: Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise7.py>Exercise 7</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 8</td>
+        <td>Question 8: Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise8.py>Exercise 8</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 9</td>
+        <td>Question 9: Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise9.py>Exercise 9</a></td>
         <td></td>
     </tr>
     <tr>
-        <td>Question 10</td>
+        <td>Question 10: Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise10.py>Exercise 10</a></td>
         <td></td>
     </tr>
