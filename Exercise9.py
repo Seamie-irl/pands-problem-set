@@ -13,20 +13,20 @@ iLine =0 # bucket for line numbers
 
 oFile=open(sFilename.strip(),"r") # looked for this in the list. Same as Trim() in vb
 try:
-    for oLine in oFile:
+    for oLine in oFile: # loop through each oLine in oFile
         iLine+=1 # increment the line number
-        if not oLine in ['\n','\r\n']:
-            try:
-                if bPrint:
-                    print(f'Line number: {iLine}')
-                    print(oLine)
-                    bPrint=False # lowers the flag for the next line
-                else:
-                    print(f'Line number: {iLine} [skipped]')
-                    bPrint=True # raises the flag for the next line
-            except:
-                oFile.close
-        else: # reset the flag
+        if not oLine in ['\n','\r\n']: # found this in https://stackoverflow.com/questions/7896495/python-how-to-check-if-a-line-is-an-empty-line
+            # there's text in this line
+            if bPrint: # print this line
+                print(f'Line number: {iLine}') # prints the line number
+                print(oLine) # then the line
+                bPrint=False # then lowers the flag for the next line
+            else: #skip this line
+                print(f'Line number: {iLine} [skipped]') # but print that it was skipped
+                bPrint=True # raises the flag for the next line
+
+        else: # there's no text in this line. It's just CrLf. Annotate it but treat it the same
+            # reset the flag
             sResponse=''
             if bPrint:
                 print(f'          <Empty Line {iLine} not printed>')
@@ -34,5 +34,5 @@ try:
             else:
                 print(f'          <Empty Line {iLine} would have been skipped>')
                 bPrint=True
-except FileNotFoundError:
+except FileNotFoundError: # found this by creating the error :-)
     print("I'm afraid the filename you gave me doesn't exist")
