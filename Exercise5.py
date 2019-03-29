@@ -17,7 +17,7 @@
 
 bLoop = True
 while bLoop== True :
-    sResponse = input("Please enter a positive integer")
+    sResponse = input("Please enter a positive integer and I'll tell you if it's a Prime Number")
     #test that it's a positive integer
     if sResponse.isdigit() :
         print ("It's a number")
@@ -45,7 +45,7 @@ while bLoop== True :
                         if x+1>iQtr :
                             bFinished=True
 if bIsPrime :
-    print (sResponse + " is a prime number")
+    print ('and ' + sResponse + " is a prime number")
 else :
-    print(sResponse + " is not a prime number")
+    print('but ' + sResponse + " is not a prime number")
 
