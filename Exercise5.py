@@ -19,14 +19,15 @@ bLoop = True
 while bLoop== True :
     sResponse = input("Please enter a positive integer and I'll tell you if it's a Prime Number")
     #test that it's a positive integer
-    if sResponse.isdigit() :
-        print ("It's a number")
+    #first see that it's a number
+    try:
+        lResponse=float(sResponse)
         # OK, at least it's a number but is it positive?
         lResponse=float(sResponse)
         if lResponse>0 : # Right, well, it's a positive number but is it an integer
-            print("It's positive")
+            print("It's a positive number")
             if lResponse==float(int(lResponse)) : #bingo, we have a positivie integer
-                print ("It's an integer")
+                print ("... and t's an integer")
                 #set the loop not to repeat
                 bLoop=False
                 iQtr = int(lResponse/4)
@@ -44,6 +45,12 @@ while bLoop== True :
                     else :
                         if x+1>iQtr :
                             bFinished=True
+            else:
+                print("OK, but what you entered wasn't an integer")
+        else:
+            print("What you enter has to be greater than zero!")
+    except ValueError:
+        print("Sorry, that wasn't a number!")
 if bIsPrime :
     print ('and ' + sResponse + " is a prime number")
 else :
