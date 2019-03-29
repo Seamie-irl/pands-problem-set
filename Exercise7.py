@@ -12,16 +12,25 @@
 import math as m
 # lNumber=float(input("Please enter a decimal number"))
 # using the above creates an error if the user enters a non-number
-sResponse=input("Please enter a decimal number: ")
 bDecimal=False
 while not bDecimal:
+    sResponse=input("Please enter a decimal number: ")
     if sResponse.isdigit: # it's a number!
         lResponse=float(sResponse)
         if lResponse!=int(lResponse): # it's a decimal
             # raise the flag
             bDecimal=True
-            print("The approximate Square Root of " + sResponse + "= " + str(m.sqrt(lResponse)))
+            print("The calculated Square Root of " + sResponse + "= " + str(m.sqrt(lResponse)))
+
+            # this next part is subsequent to the Newton Square Root tutorial
+            # I'm picking a starting point as 1/10th of the number
+            sp = lResponse/10
+            while abs((sp**2)-lResponse)>0.001:
+                sp-=((sp**2)-lResponse)/(2*sp)
+            print(f"whereas the estimated Square Root of {lResponse} is {sp}")
         else:
             print("Sorry, you didn't enter a decimal number")
+    else:
+        print("Sorry, what you entered wasn't a number, least of all a decimal one!")
 
     
