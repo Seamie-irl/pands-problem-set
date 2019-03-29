@@ -23,7 +23,7 @@ b=[]
 # b will be the sequential result in the calculation
 
 x=0 #set the index
-sResponse = input("Please enter a positive integer")
+sResponse = input("Please enter a positive integer and I'll output the Collatz sequence for that number: ")
  #test that it's a positive integer
 if sResponse.isdigit():
     # OK, at least it's a number but is it positive?
