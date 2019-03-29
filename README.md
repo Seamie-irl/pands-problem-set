@@ -92,3 +92,10 @@ Where I've directly used code in my solutions, the link to the source of the cod
 
 <h2 id="App"> Appendix 1 </h2>
 
+### GitHub
+The fact that you're reading this suggests not alone are you aware of GitHub but that you've navigated your way through the site at some level. However, should you wish to create your own account, please see <a href=https://github.com>GitHub</a>
+
+### Visual Studio Code
+Visual Studio Code is a code editor redefined and optimised for building and debugging modern web and cloud applications (https://code.visualstudio.com). It can be downloaded <a href=https://code.visualstudio.com/download>from here</a>
+
+Once downloaded, you can run the software by looking for it in your program list with the icon <img src=https://c616b3614506f07e89ab-5cef763fe73fcec814d61b3b60a1ac9a.ssl.cf1.rackcdn.com/V1~113244e0-0b02-4a41-9fb2-1f39e5c5e6a4~952dc796a8d745b2b7968c50b0bcee30>
