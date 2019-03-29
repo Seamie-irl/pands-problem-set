@@ -22,29 +22,44 @@ b=[]
 # a will just be a sequential index
 # b will be the sequential result in the calculation
 
+# set a flag for a correct number having been entered
+bProceed = False # flag dropped
+
 x=0 #set the index
-sResponse = input("Please enter a positive integer and I'll output the Collatz sequence for that number: ")
- #test that it's a positive integer
-if sResponse.isdigit():
-    # OK, at least it's a number but is it positive?
-    lResponse=float(sResponse) #used float in case the number isn't an integer
-    if lResponse>0: # Right, well, it's a positive number but is it an integer
-        if lResponse==float(int(lResponse)): #bingo, we have a positivie integer
-            lResult=lResponse # introduce the pointer for the Result
-            while lResult!=1: # used <> initially. Then remembered Ian using !=
-                if lResult%2==0:
-                    print(lResult," was even, leading to: ")
-                    lResult=lResult/2
-                    print(lResult)
-                    a.append(x)
-                    b.append(lResult)
-                    x+=1 # move the index up one
-                else:
-                    print(lResult, " was odd, leading to: ")
-                    lResult=(lResult*3)+1
-                    print(lResult)
-                    a.append(x)
-                    b.append(lResult)
+
+#test that it's a positive integer
+# pass the contents of the input to a float. If it fails, it wasn't a number
+while not bProceed: # keep doing the loop until the user enters a positive integer
+    sResponse = input("Please enter a positive integer and I'll output the Collatz sequence for that number: ") 
+    try: # commences the error trapping loop
+        lResponse=float(sResponse) #try to pass the value of the input to a float
+        if lResponse>0: # Right, well, it's a positive number but is it an integer
+            if lResponse==float(int(lResponse)): #bingo, we have a positivie integer
+                # raise the flag for correct number
+                bProceed=True
+                lResult=lResponse # introduce the pointer for the Result
+                while lResult!=1: # used <> initially. Then remembered Ian using !=
+                    if lResult%2==0:
+                        print(lResult," was even, leading to: ")
+                        lResult=lResult/2
+                        print(lResult)
+                        a.append(x)
+                        b.append(lResult)
+                        x+=1 # move the index up one
+                    else:
+                        print(lResult, " was odd, leading to: ")
+                        lResult=(lResult*3)+1
+                        print(lResult)
+                        a.append(x)
+                        b.append(lResult)
+            else:
+                print("Sorry, whilst you entered a number, it wasn't an integer")
+        else:
+            print("OK, you gave me a number but it wasn't a positive one (i.e. Greater than zero)")
+    except ValueError:
+        print("Sorry, you didn't enter a number!")
+
+
 
 # The output of this is cool
 # It forms a rising wave pattern until it hits a value where all the divisors
@@ -55,22 +70,23 @@ if sResponse.isdigit():
 # https://www.python-course.eu/tkinter_dialogs.php
 # for the messagebox import
 
-print('Click on the question button at the top left of the screen')
-top = tk.Tk()
-def callback():
-    if tkMB.askyesno('Graph','Would you like to see this plotted?'):
-        plt.plot(a,b)
-        plt.xlabel('Sequence')
-        plt.ylabel('Result')
-        plt.title('Exercise 4')
-        plt.legend(['Collatz'])    
-        plt.show()
-    else:
-        print('The End!')
-        quit()
-B=tk.Button(top,text='Click for question',command=callback)
-B.pack()
-tk.mainloop()
+if bProceed:
+    print('Click on the question button at the top left of the screen')
+    top = tk.Tk()
+    def callback():
+        if tkMB.askyesno('Graph','Would you like to see this plotted?'):
+            plt.plot(a,b)
+            plt.xlabel('Sequence')
+            plt.ylabel('Result')
+            plt.title('Exercise 4')
+            plt.legend(['Collatz'])    
+            plt.show()
+        else:
+            print('The End!')
+            quit()
+    B=tk.Button(top,text='Click for question',command=callback)
+    B.pack()
+    tk.mainloop()
 # not the neatest way of handling a messagebox. It's a two-step process causing
 # the user to have to scan the screen for what to do next
 print('The End!!')
