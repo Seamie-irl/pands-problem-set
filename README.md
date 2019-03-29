@@ -1,14 +1,16 @@
 # Problem Set
 ##*Instructions for following the solutions*
 
-Student Name: Seamus Leonard
-Student ID: G00376550
+**Student Name:** Seamus Leonard
+<br>
+**Student ID:** G00376550
 
 ### Introduction
 In order to be able to view the solutions, you might like to have:
 + A GitHub account
 + Visual Studio Code (or other software which will display the code in the file e.g. Anaconda)
 + Knowledge on how to access the Windows Command Prompt (Command Line Interface) and how to run commands
++ Git - Git Bash
 
 An <a href="#App">appendix</a> at the end of this document provides an outline on how to achieve the above criteria
 
@@ -92,10 +94,22 @@ Where I've directly used code in my solutions, the link to the source of the cod
 
 <h2 id="App"> Appendix 1 </h2>
 
+This appendix is neither meant to be a tutorial nor a primer for using software. However, the headings below set out the start-points for using the resources I used in completing the above questions.
+
 ### GitHub
 The fact that you're reading this suggests not alone are you aware of GitHub but that you've navigated your way through the site at some level. However, should you wish to create your own account, please see <a href=https://github.com>GitHub</a>
 
 ### Visual Studio Code
-Visual Studio Code is a code editor redefined and optimised for building and debugging modern web and cloud applications (https://code.visualstudio.com). It can be downloaded <a href=https://code.visualstudio.com/download>from here</a>
+Visual Studio Code (VS) is a code editor redefined and optimised for building and debugging modern web and cloud applications (https://code.visualstudio.com). It can be downloaded <a href=https://code.visualstudio.com/download>from here</a>
 
 Once downloaded, you can run the software by looking for it in your program list with the icon <img src=https://c616b3614506f07e89ab-5cef763fe73fcec814d61b3b60a1ac9a.ssl.cf1.rackcdn.com/V1~113244e0-0b02-4a41-9fb2-1f39e5c5e6a4~952dc796a8d745b2b7968c50b0bcee30 width=50>
+
+A good reference for learning Python code is Python.Org's own documents and tutorials which can be found <a href=https://docs.python.org/3>here</a>
+
+### Windows Command Prompt
+The Command Prompt (Cmd) can be accessed on Windows either by searching for it or finding it in your Start Menu under the <Windows System> folder. When searching for it, 'cmd' is usually enough to find it.
+
+Once in Cmd, you should navigate through your directories to where you will be storing your python .py files using cd to change directory and dir to list what's in the directory you're currently in.
+
+### Git
+Using Git is an ideal way to keep track of the progress of your coding and for synchonising your local files and folders with GitHub. This software can be downloaded <a href=https://git-scm.com/downloads>here</a> with instructions for using the software <a href=https://git-scm.com/book/en/v2>here</a>
