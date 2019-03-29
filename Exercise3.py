@@ -3,7 +3,10 @@
 # The key here is MOD which gives the remainder of all division calculations
 # If it's zero then the numerator is divisible by the demominator
 # It only matters about 6 being the divisor and then whether 12 divides in this case
-# So, start at 1,000 and move sequentially.
+# So, start at 1,000 and once you get the first number to divide by
+# 6 and not divisible by 12 print that row and then
+# move sequentially in steps of 12 as the intermediary numbers will either not
+# be divisible by 6 or the one number which is divisible by 6 will be divisible by 12.
 
 # looking at the results from the first run, each successive print
 # is 12 units apart. Therefore, it would speed up the process
@@ -17,4 +20,4 @@ for i in range(1000,10000):
             # from the results of the first run
             # now just jump 12
             i += 12 # this short-hand exists in VB and I tested it in python and it works!! :-)
-print("Finished! The above list is complete") # informs the user the program has finished
+print("Finished! The above list is a list of all the numbers between 1000 and 10000 which ARE divisible by 6 but NOT divisible by 12") # informs the user the program has finished
