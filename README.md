@@ -27,22 +27,22 @@ A set of ten problems were presented to the class during the winter semester of 
     <tr>
         <td>Question 1: Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise1.py>Exercise 1</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/sumupto.py>pre-complete 1</a></td>
     </tr>
     <tr>
         <td>Question 2: Write a program that outputs whether or not today is a day that begins with the letter T.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise2.py>Exercise 2</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/begins-with-t.py>pre-complete 2a</a><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/secondQ.py>pre-complete 2b</a></td>
     </tr>
     <tr>
         <td>Question 3: Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise3.py>Exercise 3</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/divisors.py>pre-complete 3</a></td>
     </tr>
     <tr>
         <td>Question 4: [Collatz] Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise4.py>Exercise 4</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/collatz.py>pre-complete 4</a></td>
     </tr>
     <tr>
         <td>Question 5: Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.</td>
@@ -52,17 +52,17 @@ A set of ten problems were presented to the class during the winter semester of 
     <tr>
         <td>Question 6: Write a program that takes a user input string and outputs every second word.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise6.py>Exercise 6</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/secondstring.py>pre-complete 6</a></td>
     </tr>
     <tr>
         <td>Question 7: Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise7.py>Exercise 7</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/squareroot.py>pre-complete 7</a></td>
     </tr>
     <tr>
         <td>Question 8: Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise8.py>Exercise 8</a></td>
-        <td></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/datetimeQ.py>pre-complete 8</a></td>
     </tr>
     <tr>
         <td>Question 9: Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.</td>
