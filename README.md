@@ -32,7 +32,7 @@ A set of ten problems were presented to the class during the winter semester of 
     <tr>
         <td>Question 2: Write a program that outputs whether or not today is a day that begins with the letter T.</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/blob/master/Exercise2.py>Exercise 2</a></td>
-        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/begins-with-t.py>pre-complete 2a</a><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/secondQ.py>pre-complete 2b</a></td>
+        <td><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/begins-with-t.py>pre-complete 2a</a><br><a href=https://github.com/Seamie-irl/pands-problem-set/blob/master/secondQ.py>pre-complete 2b</a></td>
     </tr>
     <tr>
         <td>Question 3: Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.</td>
