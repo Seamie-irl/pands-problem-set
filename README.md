@@ -19,13 +19,12 @@ A set of ten problems were presented to the class during the winter semester of 
 
 ### The Questions and their corresponding Answers
 <table>
-    <th>
-        <td>Question</td>
-        <td>Answer</td>
-        <td>pre-Answer files</td>
-    </th>
     <tr>
-        <td></td>
+        <th>Question</th>
+        <th>Answer</th>
+        <th>pre-Answer files</th>
+    </tr>
+    <tr>
         <td>Question 1</td>
         <td><a href= https://github.com/Seamie-irl/pands-problem-set/Exercise1.py>Exercise 1</a></td>
         <td></td>
