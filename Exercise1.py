@@ -10,6 +10,12 @@
 # no external references were used in writing this program
 # however, considerable trial and error regarding syntax was used
 
+# ADDENDUM
+# I considered using a raise error but even if I did, I would still have to
+# have the 'IF' statements to define the error type (non-integer, zero etc.)
+# in order to provide feedback to the user
+
+import sys # needed for the EXIT function
 # raise a flag which signifies that the input is a positive integer
 bValid = False
 # set a string variable as empty (as opposed to NULL)
@@ -17,22 +23,25 @@ sResponse=""
 # loop using the earlier flag and keep doing until flag is raised
 while not bValid:
     # request input from user
-    sResponse=input("Please enter a positive integer")
+    sResponse=input("Please enter a positive integer (enter x to abandon): ")
+    if sResponse=='x':
+        sys.exit() # creates an exit out of the loop
     # proceed if it's a number, exit if not
     if sResponse.isdigit():
         # copy conversion of string to integer variable
         iResponse=int(sResponse)
-        #print(iResponse) <- this was used as part of the testing
+        #print(iResponse) <- this was used as part of the debugging
         # proceed if the number is positive, exit if not
         if iResponse > 0:
             # raise the flag
             bValid=True
-            #print(bValid)  <- this was used as part of the testing
+            #print(bValid)  <- this was used as part of the debugging
+        else:
+            # response back to user if they entered a zero
+            print('Zero, whilst positive, is not valid for this exercise')
     else:
         # response back to user if conditions not met 
         print(sResponse, " is not a positive integer, try again")   
-# down side of this loop is that there's no escape. You either enter a 
-# positive integer or stay forever in the loop
 
 # feedback to user
 print("You entered",iResponse)
